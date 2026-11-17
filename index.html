@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> MY FIRST HTML Page</title>
+    <link rel="stylesheet" href="style.css">
+        <style>
+            h2 {
+                color: #d27d54;
+            }
+        </style>
+
+</head>
+
+<body>
+
+    <h1>Welcome to my page</h1>
+    <p>
+        Hello! I am a Business Information Technology (BIT) student at Laurea University Of Applied Science.
+        I am learning web development and programming. I am learning how
+        digital technologies and application can solve problems and help organizations
+        work better. I am especially interested in sustainable software
+        development and how technology can be built to be efficient, convinent and
+        accessible to everyone.
+    </p>
+
+   <img src="sadik.jpeg" width="200" height="230" alt="Sadikshya Nagarkoti">
+
+ <h2>My Hobbies</h2>
+    <p>
+        My interests include web development, programming, and technology trends.
+        I am particularly interested in creating innovative solutions and staying updated
+        with the latest advancements in the field.
+    </p>
+    <table>
+    <tr>
+        <th>Course Name</th>
+        <th>What I Am Learning</th>
+    </tr>
+    <tr>
+        <td>Finnish Language</td>
+        <td>Basic Finnish communication</td>
+    </tr>
+    <tr>
+        <td>Web Development</td>
+        <td>HTML and CSS</td>
+    </tr>
+    </table>
+
+<h2>Contact Me</h2>
+    <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+    </form>
+
+    <!-- Task 1: CSS Transitions -->
+    <h2>CSS Transitions</h2>
+    <button class="transition-button">Hover me</button>
+
+    <!-- Task 2: CSS Animations -->
+    <h2>CSS Animations</h2>
+    <div class="animation-box"></div>
+
+    <!-- Task 3: CSS Pseudo-classes -->
+    <h2>CSS Pseudo-classes</h2>
+    <ul class="pseudo-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <!-- Task 4: CSS Filters -->
+    <h2>CSS Filters</h2>
+    <img src="sadik.jpeg" alt="Sample Image" class="filter-image" width="200" height="230">
+
+    <!-- Task 5: CSS Pseudo-elements -->
+    <h2>CSS Pseudo-elements</h2>
+    <blockquote class="quote">
+        This is a sample quote.
+    </blockquote>
+
+    <!-- Workshop 4: Task 1: Semantic Elements -->
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <footer>
+        <p>Copyright 2026</p>
+    </footer>
+
+    <!-- Workshop 4: Task 2: Grid Layout -->
+    <h2>CSS Grid Layout</h2>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </div>
+
+    <!-- Workshop 4: Task 3: Flexbox Layout -->
+    <h2>CSS Flexbox Layout</h2>
+    <div class="flex-container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <!-- Workshop 4: Task 4: Media Queries -->
+    <h2>CSS Media Queries</h2>
+    <div class="responsive-box">
+        Resize the window to see the effect
+    </div>
+
+    <!-- Workshop 5: Responsive Design -->
+
+    <h2>Responsive Layout</h2>
+
+    <div class="responsive-container">
+        <div class="column">Column 1</div>
+        <div class="column">Column 2</div>
+    </div>
+
+    <h2>Responsive Image</h2>
+
+    <img src="sadik.jpeg" alt="Responsive Image" class="responsive-image">
+
+    <h2>Media Queries</h2>
+
+    <div class="media-query-box">Resize the window to see the effect</div>
+
+    <h2>Responsive Navigation Bar</h2>
+
+    <nav class="responsive-nav">
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+
+        <ul class="nav-list" id="navList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h2>Validate Your Responsive Design</h2>
+
+    <p>
+        Test your responsive design using browser developer tools.
+    </p>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navList").classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>
